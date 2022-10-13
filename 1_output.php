@@ -8,7 +8,7 @@ echo 123;
 echo '<h1>Hello</h1>';
 
 // print - Similar to echo, but a bit slower
-print 'Hello';
+print 'Print-Sumaiya';
 
 // print_r - Gives a bit more info. Can be used to print arrays
 print_r('Hello');
@@ -48,5 +48,9 @@ echo "Is your name O\'reilly?";
   <h1>Hello <?php echo 'Brad'; ?></h1>
   <!-- You may only drop the semi-colon after a statement when the statement is followed immediately by a closing PHP tag ?>. -->
   <h1>Hello <?= 'Brad' ?></h1>
+  <h1>print_r('Sumaiya'):  <?= print_r('Sumaiya'); ?></h1>
+  <h1>print_r([1, 2, 3]):  <?= print_r([1, 2, 3]); ?></h1>
+  <h1>var_dump('Hello');:   <?= var_dump('Hello'); ?></h1>
+  <h1>var_dump([1, 2, 3]);  :    <?= var_dump([1, 2, 3]);?></h1>
 </body>
 </html>
